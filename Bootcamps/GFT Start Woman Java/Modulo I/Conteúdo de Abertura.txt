@@ -1,0 +1,12 @@
+CONTEÚDO DE ABERTURA
+
+* Boas-vindas
+	**CONCLUIDO
+* Lógica de Programação Essencial
+	**CONCLUIDO
+* Aprenda o que são Estrutura de Dados e Algoritimos
+	**CONCLUIDO
+* Introdução ao Git e ao Github
+	**CONCLUIDO
+* Desafio de Projetos
+	**CONCLUIDO
