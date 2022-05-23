@@ -1,6 +1,6 @@
 package exercicio1;
 
-//Exercicio de variáveis, tipos de dados e operadores aritméticos.
+//Exercicio 1 de variáveis, tipos de dados e operadores aritméticos.
 
 public class Main {
 
