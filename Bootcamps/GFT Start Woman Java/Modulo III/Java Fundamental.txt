@@ -1,6 +1,7 @@
 JAVA FUNDAMENTAL
 
 * Variáveis, Tipo de Dados e Operadores Matemáticos em Java
+	**CONCLUIDO
 * Entendendo Métodos Java
 * Lógica Condicional e Controle de Fluxos em Java
 * Estruturas de Repetição e Arrays em Java
