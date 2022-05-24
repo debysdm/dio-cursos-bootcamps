@@ -1,0 +1,9 @@
+Modulo V - SQL
+
+* Curso - MySql - Trabalhando com as suas primeiras tabelas
+	**Certificado - 
+	**Conluído - 
+* Curso - MySQL - Consultas com join
+	**Certificado - 
+	**Conluído - 
+

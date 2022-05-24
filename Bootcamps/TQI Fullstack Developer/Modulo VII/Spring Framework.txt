@@ -1,0 +1,17 @@
+Modulo VII - Spring Framework
+
+* Curso - Conhecendo os Principais Protocolos de Comunicação da Internet
+	**Certificado - 
+	**Conluído - 
+* Curso - Imersão no Spring Framework com Spring Boot
+	**Certificado - 
+	**Conluído - 
+* Desafio de projeto - Explorando Padrões de Projetos na Prática com Java
+	**Certificado - 
+	**Conluído - 
+* Curso - Adicionando Segurança a uma API REST com Spring Security
+	**Certificado - 
+	**Conluído - 
+* Desafio de Projeto - Desenvolvimento de teste unitários para validar uma API REST de gerenciamento estoques de cerveja
+	**Certificado - 
+	**Conluído - 

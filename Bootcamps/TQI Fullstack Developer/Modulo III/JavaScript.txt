@@ -1,0 +1,38 @@
+Modulo III - JavaScript
+
+* Curso - IDE Instalação e Configuração (Visual Studio Code)
+	**Certificado - 
+	**Conluído - 
+* Curso - Introdução ao JavaScript
+	**Certificado - 
+	**Conluído - 
+* Curso - Sintase Básica em JavaScript
+	**Certificado - 
+	**Conluído - 
+* Curso - Sintaze e Operadores
+	**Certificado - 
+	**Conluído - 
+* Curso - Variáveis e Tipos
+	**Certificado - 
+	**Conluído - 
+* Curso - Funções
+	**Certificado - 
+	**Conluído -
+* Curso - Debugging e Error Handling
+	**Certificado - 
+	**Conluído -  
+* Curso - JavaScript Assíncrono
+	**Certificado - 
+	**Conluído - 
+* Curso - Orientação a objetos
+	**Certificado - 
+	**Conluído - 
+* Curso - Manipulando a D.O.M. com JavaScript
+	**Certificado - 
+	**Conluído - 
+* Desafio de Código - Desafios TQI JavaScript
+	**Certificado - 
+	**Conluído - 
+* Desafio de Projeto - Desenvolvendo um jogo da memória
+	**Certificado - 
+	**Conluído - 

@@ -1,0 +1,19 @@
+Modulo I - Conteúdo de Abertura
+
+* Curso - Boas Vindas ao TQI Fullstack Developer
+	**Certificado - OK
+	**Conluído - OK
+* Mentoria - Aula Inaugural - TQI Fullstack Developer
+	**Conluído - OK
+* Curso - Seja Protagonista Neste Bootcamp
+	**Certificado - 
+	**Conluído - 
+* Curso - Introdução à Programação e Pensamento Computacional
+	**Certificado - 
+	**Conluído -
+* Curso - Introdução ao Git e GitHub
+	**Certificado - OK 
+	**Conluído - OK
+* Desafio de Projeto - Criando seu primeiro Repositório no GitHub para compartilhar Seu Progresso
+	**Certificado - OK 
+	**Conluído - OK

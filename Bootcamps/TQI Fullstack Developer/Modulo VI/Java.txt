@@ -1,0 +1,47 @@
+Modulo VI - JAVA
+
+* Curso - Dominando IDEs Java
+	**Certificado - OK
+	**Conluído - OK
+* Curso - Variáveis, Tipo de Dados e Operadores Matemáticos em Java
+	**Certificado - OK
+	**Conluído - OK
+* Curso - Entendendo Métodos Java
+	**Certificado - 
+	**Conluído - 
+* Curso - Lógica Condicional e Controle de Fluxo em Java
+	**Certificado - 
+	**Conluído - 
+* Curso - Estruturas de Repetição e Arrays em Java
+	**Certificado - 
+	**Conluído - 
+* Curso - Trabalhando com Collections Java
+	**Certificado - 
+	**Conluído -
+* Curso - Estruturas de Dados em Java: Principais implementações
+	**Certificado - 
+	**Conluído -  
+* Curso - Debugging Java
+	**Certificado - 
+	**Conluído - 
+* Curso - Tratamento de Exceções em Java
+	**Certificado - 
+	**Conluído - 
+* Desafio de Código - Desafios TQI Java
+	**Certificado - 
+	**Conluído - 
+* Curso - Programação Orientada a Objetos
+	**Certificado - 
+	**Conluído - 
+* Curso - Trabalhando com Banco de Dados utilizando JDBC e JPA
+	**Certificado - 
+	**Conluído - 
+* Curso - JPA com Hibernate
+	**Certificado - 
+	**Conluído - 
+* Desafio de Projeto - Criando um Banco Digital com Java e Orientação a Objetos
+	**Certificado - 
+	**Conluído - 
+* Curso - Testes Unitários com JUnit
+	**Certificado - 
+	**Conluído - 
