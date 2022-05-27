@@ -1,0 +1,41 @@
+Semântica
+
+<section> - Representa um seção generica de conteudo, como uma lista de artigos
+<header> - Cabeçalho da página ou de parte da página.
+<article> - Representa um conteúdo relevante dentro da página, como um artigo de um blog
+<aside> - Representa um conteudo relacionado ao conteudo principal da página, como uma biografia de autor, ou linkis
+<footer> - Rodapé da página ou parte da página
+<h1><h6> - Titulo da página...
+
+Textos e links
+
+<h1>Título da página</h1>
+<h2>Título de seção</h2>
+<h3>Título de artigo</h3>
+<p>Conteúdo do artigo</p> - Representa um paragrafa, de testo, imagem, vídeo ou outros tipos de arquivos.
+
+<a>Link</a> -  Ancara que interliga varias coisas
+
+<a href="linkedin.com/in/vilaboim">Linkedin</a> - Href - Hiperlink onde a ancora esta apontando
+<a href="mailto:lucas@vilaboim.com">E-mail</a> 
+
+<a target="_blank">Link</a> - serve pra indicar como o link deve ser aberto, 
+
+Imagens
+
+<img>
+
+<img src="img/avatar.jpg"> - Obrigatoria, é a imagem
+<img alt="Foto de Lucas VilaBoim"> - Descrição da foto
+
+Listas
+
+<ul> - Representa uma lista que a ordem dos itens não é importante
+Item 1
+Item 2
+
+<ol> Representa uma lista que a ordem dos itens é importante
+1. Item 1
+2. Item 3
+
+<li> Item da lista

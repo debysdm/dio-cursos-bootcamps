@@ -1,0 +1,159 @@
+CSS3
+
+Classe .
+Id # - 1 vez na página
+
+Padding e Margin
+Exemplo com apenas 1 tamanho para todos os lados
+	.post{
+	pagging: 10px;
+	}
+
+Exemplo com 2 tamanhos para os lados
+	.post{
+	pagging: 10px 5px; // 10Superior/inferior 5laterais
+	}
+
+Exemplo com um tamanho para cada lados
+	.post{
+	pagging: 15px 10px 5px 0; // 15px topo 10pxdireita 5pxinferior 0esquedo
+	}
+Exemplo com um tamanho para cada lados, com forma especifica
+	.post{
+	pagging-top: 15px
+	pagging-right: 10px
+	pagging-bottom: 5px
+	pagging-left: 0
+	}
+
+Backgroung
+
+.post {
+backgroung-color: green;
+backgroung-image: url("bg.png");
+backgroung-position: top;
+}
+
+.post {
+backgroung-color: green;
+backgroung-color: #008800;
+backgroung: green ou #008800;
+}
+
+Border
+Largura: pixels, centimentrs, molimetos...
+Cor: Blue, @0000ff...
+Estilo: Sólida, pontilhada, tracejada...
+
+.post {
+border: 3px solide blue;
+border-top: 2px dotted green;
+border-right: 4px dashed pink;
+}
+
+.post {
+border-top: 2px dotted green;
+border-right: 4px dashed pink;
+border-bottom: 2px dotted green;
+border-left: 2px dotted green;
+}
+
+Aspecto espeficico pra bordar
+
+.post {
+border: 2px dotted green;
+}
+
+.post {
+border-width: 2px;
+border-color: pink;
+border-style: dotted;
+}
+
+.post {
+border-top-width: 2px;
+border-top-color: pink;
+border-top-style: dotted;
+}
+
+Border radios - arrendodar os cantos do elemento
+
+border-radius:10px 
+border-radius:50%
+border-radius:10% 50%
+border-radius:50% 20% 15% 5%
+
+Font-Family - altera a fonte do nosso texto
+#title {
+font-family: verdana;
+}
+
+.post {
+font-family: verdana, Arial;
+}
+
+Font-Size - Altera o tamanho do nosso texto
+#title {
+font-size: 30px;
+}
+
+.post {
+font-size: 18px;
+}
+
+Font-weight - Altera o peso do texto (normal Bolde/nregrito)
+#title {
+font-weight: normal;
+}
+
+.post {
+font-weight: bold;
+}
+
+Text-Transform - Altera o texto entre maiusculas e minusculas
+#title {
+text-transform: uppercasa; Caixa alta
+}
+
+.subtitle {
+text-transform: lowercasa; Caixa Baixa
+}
+
+.post {
+text-transform: capitalize; Primeira letra em maiuscula
+}
+
+Text-deciration - Destaque em algum texto
+#title {
+text-decoration: underline; Linha abaixo da palavra
+}
+
+.subtitle {
+text-decoration: overline; Linha acima da palavra
+}
+
+.post {
+text-decoration: line-through; Linha no centro, cortando a palavra
+}
+
+List-style-type
+ul{
+list-style-tape: square; Quadrado
+} - 
+ol{
+list-style-tape: upper-roman; Algarismo romano
+}
+ul{
+list-style-tape: "\1F44D"; emoji joinha
+}
+
+list-style-image - imagem como marcadores
+ul{
+list-style-image: url("rocket.png"); 
+}
+
+Dimensão e Alinhamento
+Width e Height - Severm ajustar altura e largura.
+Max-Width e max-Height - Largula e largura maxima que podem ter
+Margin - espaçamento entre elementos
+Text align - alinhar textos
