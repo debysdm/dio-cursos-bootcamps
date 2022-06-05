@@ -1,65 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
-
 body {
     margin: 0;
     padding: 0;
-    color: white;
-    font-family: 'amatic sc', sans-serif;
+    font-family: sans-serif;
 }
 
 .wrapper {
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(-45deg, #483D8B, #9400D3, #9370DB, #663399);
-    background-size: 400% 400%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    animation: backgroundTransition 8s ease-in-out infinite;
-}
-
-h1 {
-    text-transform: uppercase;
-    letter-spacing: 4px;
-}
-
-h2 {
-    text-transform: uppercase;
-    letter-spacing: 4px;
-}
-
-.social-media {
-    margin: 1rem;
-    display: flex;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-    font-size: 24px;
-    padding: 1rem 4rem;
-    border: 1px solid white;
-    min-width: flex;
+    background-color: rgb(53, 53, 53);
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: .5s cubic-bezier(0.55, 0.025, 0.675, 0.97);
 }
 
-a:hover {
-    color: #483D8B;
-    background-color: white;
+.chatbot {
+    height: 4rem;
+    width: 8rem;
+    border-radius: 36px;
+    border: 4px solid #949494;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    transform: translateY(0);
+    animation: chatTranslate 2s ease-in-out infinite;
 }
 
-@keyframes backgroundTransition {
+.chatbot::before {
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: -1.3rem;
+    left: 2rem;
+    border-left: 2px solid transparent;
+    border-right: 17px solid transparent;
+    border-top: 17px solid #949494;
+}
+
+.chatbot_loading {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #949494;
+    transform: scale(1);
+}
+
+.chatbot_loading:nth-child(1) {
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+.chatbot_loading:nth-child(2) {
+    animation: pulse 1.5s ease-in-out infinite;
+    animation-delay: 0.2s;
+}
+
+.chatbot_loading:nth-child(3) {
+    animation: pulse 1.5s ease-in-out infinite;
+    animation-delay: 0.4s;
+}
+
+@keyframes pulse {
     0% {
-        background-position: 0% 80%;
+        transform: scale(1);
     }
     50% {
-        background-position: 80% 100%;
+        transform: scale(1.5);
     }
-    100%{
-        background-position: 0% 90%;
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes chatTranslate {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(15px);
+    }
+    100% {
+        transform: translateY(0);
     }
 }
