@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Shadows+Into+Light&display=swap');
+
+* {
+  font-family: "amatic sc", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: lightblue;
+  font-size: 40px;
+  line-height: 1px;
+  color: #000080;
+}
+
+button {
+  border: 1px solid rgb(105, 197, 255);
+  border-radius: 5px;
+  background-color: rgb(199, 237, 250);
+  color: rgb(93, 188, 248);
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 20px;
+}
+
+#tasks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+:checked + label {
+  text-decoration: line-through;
+  color: grey;
+}

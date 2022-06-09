@@ -1,11 +1,11 @@
 Modulo III - JavaScript
 
 * Curso - IDE Instalação e Configuração (Visual Studio Code)
-	**Certificado - 
-	**Conluído - 
+	**Certificado - OK
+	**Conluído - OK
 * Curso - Introdução ao JavaScript
-	**Certificado - 
-	**Conluído - 
+	**Certificado - OK
+	**Conluído - OK
 * Curso - Sintase Básica em JavaScript
 	**Certificado - 
 	**Conluído - 
