@@ -6,12 +6,12 @@ Modulo III - JavaScript
 * Curso - Introdução ao JavaScript
 	**Certificado - OK
 	**Conluído - OK
-* Curso - Sintase Básica em JavaScript
-	**Certificado - 
-	**Conluído - 
-* Curso - Sintaze e Operadores
-	**Certificado - 
-	**Conluído - 
+* Curso - Sintaxe Básica em JavaScript
+	**Certificado - OK
+	**Conluído - OK
+* Curso - Sintaxe e Operadores
+	**Certificado - OK
+	**Conluído - OK
 * Curso - Variáveis e Tipos
 	**Certificado - 
 	**Conluído - 
