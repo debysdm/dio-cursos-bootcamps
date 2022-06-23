@@ -13,23 +13,23 @@ Modulo III - JavaScript
 	**Certificado - OK
 	**Conluído - OK
 * Curso - Variáveis e Tipos
-	**Certificado - 
-	**Conluído - 
+	**Certificado - OK
+	**Conluído - OK
 * Curso - Funções
-	**Certificado - 
-	**Conluído -
+	**Certificado - OK
+	**Conluído - OK
 * Curso - Debugging e Error Handling
-	**Certificado - 
-	**Conluído -  
+	**Certificado - OK
+	**Conluído -  OK
 * Curso - JavaScript Assíncrono
-	**Certificado - 
-	**Conluído - 
+	**Certificado - OK
+	**Conluído - OK
 * Curso - Orientação a objetos
-	**Certificado - 
-	**Conluído - 
+	**Certificado - OK
+	**Conluído - OK
 * Curso - Manipulando a D.O.M. com JavaScript
 	**Certificado - 
-	**Conluído - 
+	**Conluído - OK
 * Desafio de Código - Desafios TQI JavaScript
 	**Certificado - 
 	**Conluído - 
