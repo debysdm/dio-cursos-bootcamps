@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align Items</title>
+
+    <style>
+        .container{
+            max-width: 350px;
+            border: 1px solid black;
+            display: flex;
+        }
+
+        .item{
+            background-color: blueviolet;
+            margin: 5px;
+            color: white;
+            text-align: center;
+            flex: 1;
+        }
+
+        .center{
+            align-items: center;
+        }
+
+        .stretch{
+            align-items: stretch;
+        }
+
+        .flex-start{
+            align-items: flex-start;
+        }
+
+        .flex-end{
+            align-items: flex-end;
+        }
+
+        .baseline{
+            align-items: baseline;
+        }
+    </style>
+</head>
+<body>
+    <p>Center</p>
+    <section class="container center">
+        <div class="item">Item 1</div>
+        <div class="item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, temporibus voluptates! Maiores eligendi aperiam facere aliquam, amet ab voluptate hic ullam expedita officia dignissimos, officiis illo ipsum odio asperiores quidem.</div>
+        <div class="item">Item 2</div>
+    </section>
+
+    <p>Stretch</p>
+    <section class="container stretch">
+        <div class="item">Item 1</div>
+        <div class="item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, temporibus voluptates! Maiores eligendi aperiam facere aliquam, amet ab voluptate hic ullam expedita officia dignissimos, officiis illo ipsum odio asperiores quidem.</div>
+        <div class="item">Item 2</div>
+    </section>
+
+    <p>flex Start</p>
+    <section class="container flex-start">
+        <div class="item">Item 1</div>
+        <div class="item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, temporibus voluptates! Maiores eligendi aperiam facere aliquam, amet ab voluptate hic ullam expedita officia dignissimos, officiis illo ipsum odio asperiores quidem.</div>
+        <div class="item">Item 2</div>
+    </section>
+
+    <p>flex End</p>
+    <section class="container flex-end">
+        <div class="item">Item 1</div>
+        <div class="item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, temporibus voluptates! Maiores eligendi aperiam facere aliquam, amet ab voluptate hic ullam expedita officia dignissimos, officiis illo ipsum odio asperiores quidem.</div>
+        <div class="item">Item 2</div>
+    </section>
+
+    <p>Baseline</p>
+    <section class="container baseline">
+        <div class="item">Item 1</div>
+        <div class="item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, temporibus voluptates! Maiores eligendi aperiam facere aliquam, amet ab voluptate hic ullam expedita officia dignissimos, officiis illo ipsum odio asperiores quidem.</div>
+        <div class="item">Item 2</div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,11 @@
+Modulo II - Fundaments Web com HTML e CSS3
+
+Curso - Primeiros passos para o desenvolvimento web
+		** **
+Curso - Introdução a criação de websites com HTML5 e CSS5
+		**CONCLUIDO**
+Curso - Posicionando elementos com Flexbox e CSS
+		** **
+Desafio de Projeto - Recriando a página inicial do Instagram
+		** **
+

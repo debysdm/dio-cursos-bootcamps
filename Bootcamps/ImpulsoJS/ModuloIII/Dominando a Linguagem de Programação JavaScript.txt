@@ -1,0 +1,33 @@
+Modulo II - Fundaments Web com HTML e CSS3
+
+
+
+* Curso - IDE Instalação e Configuração (Visual Studio Code)
+	**CONCLUIDO**
+* Curso - Introdução ao JavaScript
+	**CONCLUIDO**
+* Curso - Sintaxe Básica em JavaScript
+	**CONCLUIDO**
+* Curso - Sintaxe e Operadores
+	**CONCLUIDO**
+* Curso - Variáveis e Tipos
+	**CONCLUIDO**
+* Curso - Funções
+	**CONCLUIDO**
+* Curso - Debugging e Error Handling
+	**CONCLUIDO**
+* Desafio de Código - Desafios Iniciais JS
+	** **
+* Curso - Manipulando a D.O.M. com JavaScript
+	**CONCLUIDO**
+* Curso - JavaScript Assíncrono
+	**CONCLUIDO**
+* Curso - Orientação a objetos
+	**CONCLUIDO**
+Curso - Introdução ao TypeScript: Explorando Classes, Tipos e Interfaces
+		** **
+Desafio de Código - Desafios Intermediários JS
+		** **
+Desafio de Projeto - Introdução Prática ao TypeScript
+		** **
+

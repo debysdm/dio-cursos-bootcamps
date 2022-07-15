@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+
+    <style>
+        .container{
+            border: 2px solid black;
+            display: flex;
+            max-width: 400px;
+            margin-bottom: 5px;
+        }
+
+        .items{
+            background-color: aqua;
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            margin: 5px;
+        }
+
+        .flex-1{
+            flex: 1;
+            /* grow = 1 shrink = 1 basis = 0*/
+        }
+
+        .flex-2{
+            flex: 2;
+            /* grow = 2 shrink = 1 basis = 0*/
+        }
+
+        .largura{
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <p>Flex = 1</p>
+    <div class="container">
+        <div class="items flex-1">A</div>
+        <div class="items flex-1">BB</div>
+        <div class="items flex-1">D</div>
+        <div class="items flex-1">EEE</div>
+    </div>
+
+    <p>Flex = mix</p>
+    <div class="container">
+        <div class="items flex-1">A</div>
+        <div class="items flex-1">BB</div>
+        <div class="items flex-2">D</div>
+        <div class="items flex-2">EEE</div>
+    </div>
+
+    <p>width ignorado - basis 0</p>
+    <div class="container">
+        <div class="items largura flex-1">A</div>
+        <div class="items largura flex-1">BB</div>
+        <div class="items largura flex-1">D</div>
+        <div class="items largura flex-1">EEE</div>
+    </div>
+</body>
+</html>

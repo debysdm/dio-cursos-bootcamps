@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align Self</title>
+
+    <style>
+        .container{
+            display: flex;
+            max-width: 400px;
+            border: 2px solid black;
+            margin-bottom: 10px;
+        }
+
+        .items{
+            background: slateblue;
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            flex: 1;
+            margin: 5px;
+        }
+
+        .center{
+            align-self: center;
+        }
+
+        .start{
+            align-self: flex-start;
+        }
+
+        .end{
+            align-self: flex-end;
+        }
+
+        .baseline{
+            align-self: baseline;
+        }
+
+        .stretch{
+            align-self: stretch;
+        }
+
+        .auto{
+            align-self: auto;
+        }
+
+        .aling-container{
+            align-items: center;
+        }
+
+        .column{
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <div class="container aling-container">
+        <div class="items auto">1</div>
+        <div class="items auto">AA</div>
+        <div class="items auto">Item 3</div>
+        <div class="items auto">Lorem ipsum dolor</div>
+    </div>
+
+    <div class="container">
+        <div class="items stretch">1</div>
+        <div class="items start">AA</div>
+        <div class="items end">Item 3</div>
+        <div class="items center">Lorem ipsum dolor</div>
+    </div>
+
+    <div class="container">
+        <div class="items stretch">1</div>
+        <div class="items start">AA</div>
+        <div class="items end">Item 3</div>
+        <div class="items center">Lorem ipsum dolor</div>
+    </div>
+
+    <h1>Column</h1>
+    <div class="container aling-container column">
+        <div class="items auto">1</div>
+        <div class="items auto">AA</div>
+        <div class="items auto">Item 3</div>
+        <div class="items auto">Lorem ipsum dolor</div>
+    </div>
+
+    <div class="container column">
+        <div class="items stretch">1</div>
+        <div class="items start">AA</div>
+        <div class="items end">Item 3</div>
+        <div class="items center">Lorem ipsum dolor</div>
+    </div>
+
+    <div class="container column">
+        <div class="items stretch">1</div>
+        <div class="items start">AA</div>
+        <div class="items end">Item 3</div>
+        <div class="items center">Lorem ipsum dolor</div>
+    </div>
+</body>
+</html>

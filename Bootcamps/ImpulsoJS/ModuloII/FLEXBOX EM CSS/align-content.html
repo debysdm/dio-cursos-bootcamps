@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align content</title>
+
+    <style>
+        .container{
+            height: 350px;
+            max-width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+
+        .items{
+            background-color: orangered;
+            padding: 0 5px;
+            margin: 5px;
+            flex: 1;
+            text-align: center;
+            color: white;
+            border: 2px solid black;
+        }
+
+        .stretch{
+            align-content: stretch;
+        }
+
+        .center{
+            align-content: center;
+        }
+
+        .flex-start{
+            align-content: flex-start;
+        }
+
+        .flex-end{
+            align-content: flex-end;
+        }
+
+        .space-around{
+            align-content: space-around;
+        }
+
+        .space-betwen{
+            align-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <p>stretch</p>
+    <section class="container stretch">
+        <div class="items">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto as debitis quidem illo reprehenderit facilis eos?</div>
+        <div class="items">Lorem ipsum dolor, sit amet conseci iure, ducimus laboriosam corporis veritatis fugiat debitis quidem illo reprehenderit facilis eos?</div>
+        <div class="items">Lorem iblanditiis hic officia consequuntur distinctio saepe soluta ipsum, consequatur labore minima.</div>
+        <div class="items">Lorem ipsum dolor, sit amet consure, ducimus laboriosam corporis veritatis fugiat debitis quidem illo reprehenderit facilis eos?</div>
+        <div class="items">Lorem ipsum dolor, sit amet conseci uidem illo reprehenderit facilis eos?</div>
+    </section>
+
+    <p>Center</p>
+    <section class="container center">
+        <div class="items">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto as debitis quidem illo reprehenderit facilis eos?</div>
+        <div class="items">Lorem ipsum dolor, sit amet conseci iure, ducimus laboriosam corporis veritatis fugiat debitis quidem illo reprehenderit facilis eos?</div>
+        <div class="items">Lorem iblanditiis hic officia consequuntur distinctio saepe soluta ipsum, consequatur labore minima.</div>
+        <div class="items">Lorem ipsum dolor, sit amet consure, ducimus laboriosam corporis veritatis fugiat debitis quidem illo reprehenderit facilis eos?</div>
+        <div class="items">Lorem ipsum dolor, sit amet conseci uidem illo reprehenderit facilis eos?</div>
+    </section>
+
+    <p>Flex Start</p>
+    <section class="container flex-start">
+        <div class="items">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto as debitis quidem illo reprehenderit facilis eos?</div>
+        <div class="items">Lorem ipsum dolor, sit amet conseci iure, ducimus laboriosam corporis veritatis fugiat debitis quidem illo reprehenderit facilis eos?</div>
+        <div class="items">Lorem iblanditiis hic officia consequuntur distinctio saepe soluta ipsum, consequatur labore minima.</div>
+        <div class="items">Lorem ipsum dolor, sit amet consure, ducimus laboriosam corporis veritatis fugiat debitis quidem illo reprehenderit facilis eos?</div>
+        <div class="items">Lorem ipsum dolor, sit amet conseci uidem illo reprehenderit facilis eos?</div>
+    </section>
+
+    <p>Flex End</p>
+    <section class="container flex-end">
+        <div class="items">Lorem ipsum dolor</div>
+        <div class="items">Lorem ipsum dolor, sit amet conseci iure, ducimus laboriosam corporis veritatis fugiat debitis quidem illo reprehenderit facilis eos?</div>
+        <div class="items">Lorem iblanditiis hic officia consequuntur distinctio saepe soluta ipsum minima.</div>
+        <div class="items">Lorem ipsum dolor, sit amet consure, ducimus laboriosam corporis veritatis fugiat debitis quidem illo reprehenderit facilis eos?</div>
+        <div class="items">Lorem ipsum dolor, sit amet conseci uidem illo reprehenderit facilis eos?</div>
+    </section>
+
+    <p>Space Around</p>
+    <section class="container space-around">
+        <div class="items">Lorem ipsum dolor</div>
+        <div class="items">Lorem ipsum dolor, sit amet conseci iure, ducimus laboriosam corporis veritatis fugiat debitis quidem illo reprehenderit facilis eos?</div>
+        <div class="items">Lorem iblanditiis hic officia consequuntur distinctio saepe soluta ipsum minima.</div>
+        <div class="items">Lorem ipsum dolor, sit amet consure, ducimus laboriosam corporis veritatis fugiat debitis quidem illo reprehenderit facilis eos?</div>
+        <div class="items">Lorem ipsum dolor, sit amet conseci uidem illo reprehenderit facilis eos?</div>
+    </section>
+
+    <p>Space Between</p>
+    <section class="container space-between">
+        <div class="items">Lorem ipsum dolor</div>
+        <div class="items">Lorem ipsum dolor, sit amet conseci iure, ducimus laboriosam corporis veritatis fugiat debitis quidem illo reprehenderit facilis eos?</div>
+        <div class="items">Lorem iblanditiis hic officia consequuntur distinctio saepe soluta ipsum minima.</div>
+        <div class="items">Lorem ipsum dolor, sit amet consure, ducimus laboriosam corporis veritatis fugiat debitis quidem illo reprehenderit facilis eos?</div>
+        <div class="items">Lorem ipsum dolor, sit amet conseci uidem illo reprehenderit facilis eos?</div>
+    </section>
+</body>
+</html>

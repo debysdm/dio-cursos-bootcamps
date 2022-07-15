@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Order</title>
+
+    <style>
+        .container{
+            display: flex;
+            border: 2px solid black;
+            max-width: 400px;
+            margin-bottom: 20px;
+        }
+
+        .items{
+            flex: 1;
+            background: brown;
+            color: white;
+            text-align: center;
+            font-size: 24px;
+            margin: 5px;
+        }
+        .o1{
+            order: 1;
+        }
+
+        .o2{
+            order: 2;
+        }
+
+        .o3{
+            order: 3;
+        }
+
+        .o4{
+            order: 4;
+        }
+
+        .direction{
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <p>Order: 0</p>
+    <div class="container">
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+    </div>
+
+    <p>Order: diferentes</p>
+    <div class="container">
+        <div class="items o4">1</div>
+        <div class="items o2">2</div>
+        <div class="items o3">3</div>
+        <div class="items o1">4</div>
+    </div>
+    <h1>Collun</h1>
+    <p>Order: 0</p>
+    <div class="container direction">
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+    </div>
+    <p>Order: diferentes</p>
+    <div class="container direction">
+        <div class="items o4">1</div>
+        <div class="items o2">2</div>
+        <div class="items o3">3</div>
+        <div class="items o1">4</div>
+    </div>
+</body>
+</html>

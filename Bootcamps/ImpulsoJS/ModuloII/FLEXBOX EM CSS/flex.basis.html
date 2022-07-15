@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Basis</title>
+
+    <Style>
+        .container{
+            max-width: 400px;
+            border: 2px solid black;
+            display: flex;
+        }
+
+        .items{
+            background-color: darkcyan;
+            color: white;
+            text-align: center;
+            margin: 5px;
+        }
+        .bauto{
+            flex-basis: auto;
+        }
+
+        .bzero{
+            flex-basis: 0;
+        }
+        
+        .w100{
+            flex-basis: 100;
+        }
+        .fg-1{
+            flex-grow: 1;
+        }
+
+        .fg-2{
+            flex-grow: 2;
+        }
+    </Style>
+</head>
+<body>
+    <p>Basis Auto</p>
+    <div class="container">
+        <div class="items bzero fg-1">A</div>
+        <div class="items bzero fg-1">BB</div>
+        <div class="items bzero fg-2">C</div>
+        <div class="items bzero fg-2">DDD</div>
+    </div>
+
+    <p>Basis 0</p>
+    <div class="container">
+        <div class="items bauto fg-1">A</div>
+        <div class="items bauto fg-1">BB</div>
+        <div class="items bauto fg-1">C</div>
+        <div class="items bauto fg-1">DDD</div>
+    </div>
+
+    <p>Basis width</p>
+    <div class="container">
+        <div class="items w100 fg-2">A</div>
+        <div class="items w100 fg-2">BB</div>
+        <div class="items w100 fg-2">C</div>
+        <div class="items w100 fg-2">DDD</div>
+    </div>
+</body>
+</html>

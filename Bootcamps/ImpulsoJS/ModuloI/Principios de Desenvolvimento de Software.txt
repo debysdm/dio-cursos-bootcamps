@@ -1,0 +1,9 @@
+Modulo I - Principios de Desenvolvimento de Software
+
+Curso - Introdução à Programação e Pensamento Computacional
+		**CONCLUIDO**
+Curso - Introdução ao Git e GitHub
+		**CONCLUIDO**
+Desafio de Projeto - Criando seu Primeiro Repositório no GitHub para Compartilhar se Progresso
+		**CONCLUIDO**
+
