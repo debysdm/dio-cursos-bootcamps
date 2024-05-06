@@ -1,0 +1,27 @@
+** INPUT - PROCESS - OUTPUT **
+
+*Entendendo os conceitos de Input, process e output
+Quais são as partes do programa, como construir um aplicativa entendendo a lógica?
+Input: são momentos de interação com o usuário (comandos de entrada).
+Process:são verificações e ações para realizar o pedido do usuário (comando de processamento).
+Outout:são comandos de síada, para retornar alguma coisa ou dar algum posicionamento ou mensagem para o usiário (comando de saída).
+Todas as aplicações usam esse mesmo "mecanismo".
+Uma unica aplicação tem vários momentos desses.
+
+*Conceito de features
+Funcionalidades = features
+Funcionalidades de um aplicativo
+Um aplicativo tem varias funcionalidades (features), e para cada feature eu vou ter um algoritmo, e cada algoritmo tem o seu momento de input, process e output.
+
+** SEU PRIMEIRO AMBIENTE DE CÓDIGO **
+
+*O que é uma IDE e o essencial que você precisa saber
+IDE = Ferramenta de que ajudar a escrever código.
+Ambiente de desenvolvimento integrado.
+
+* Lidando com ambientes de código sem medo
+* Como perder o medo de quebrar alguma coisa
+
+** FINALIZAÇÃO **
+
+*Recaptulando

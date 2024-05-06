@@ -1,0 +1,19 @@
+** VARUÁVEIS E CONSTANTES PRA QUE TE QUERO **
+
+* Stage Variáveis - Press Start
+* Explicando variáveis
+* Declarando variáveis na prática
+* Estrutura do nosso programa
+* A diferença de constande e vari[aveis
+* Colocando seu conhecimento em prática.
+
+** TIPO DE VARIÁVEIS **
+
+* Tipos de variáveis
+* Entendendo Strings, Numbers e Booleans
+* Conhecendo outros tipos de variáveis
+* Exercicio de fixação
+
+** COMPARANDO COM OUTRAS LINGUAGENS **
+
+* Comparando variáveis em diferentes linguagens
