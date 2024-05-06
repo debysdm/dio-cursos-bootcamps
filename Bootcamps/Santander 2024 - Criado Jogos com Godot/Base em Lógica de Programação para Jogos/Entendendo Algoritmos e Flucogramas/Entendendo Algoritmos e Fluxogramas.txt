@@ -1,0 +1,39 @@
+**A BASE DE TUDO**
+
+*Para que serve lógica?
+Estuturar o pensamento logico e aprender uma linguagem de programação.
+*Para quem é esse conteúdo?
+Indepente da area de programação é preciso da lógica. Ajuda na organização para expor para o proximo.
+*A primeira coisa que você precisa aprender para se tornar dev.
+Entender que para se dar uma estrutução para uma maquina é preciso entender quais são as instruções.
+
+**SOBRE ALGORITMOA**
+
+* A base sobre algoritmos
+Logica de programação é estruturar o pensamento de uma maneira lógica para escrever um algoritmo.
+Algoritmos passo a passo logico para solucionar um problema. Sequencias de comandos para solucionar problemas
+* Algoritmos no seu dia a dia
+Passo a passo no dia a dia: Exemplo - Assar um pão
+					Sim - Botar lenha
+Inicio - Abrir o forno - Forno aceso?				Assar pão = FIM
+					Não - Acender fogo
+Exite uma ordem logica para resolver o problema, nãp dá para resolver o problema sem seguir a ordem.
+
+**FLUXOGRAMAS**
+
+*O que são fluxogramas
+Um "desenho" ou "representação grafica de um algoritmo", para ajudar a "ver" o que precisamos fazer.
+*Estrutura Inicio e fim de Fluxo.
+São prepresentados com uma elipce escrita "inicio" e outra "fim".
+*Estrutura de entrada de dados
+Entrada de dados "especie de losangulo"(retangulo torto).
+*Estrutura de decisão-ação
+Losangulo é usado para perguntar se sim ou não
+Retangulos são as ações de acordo com as respostas, se sim um ação ou se não outra ação.
+*Estrutura de Looping
+Retangulo é ação a ser realizada
+Desenho do looping é o mesmo da estrutução de decisão - losangulo.
+*Estrutura de saída
+Caixinha que parece um monitor com a parte de cima menor que a parte de baixo - usar quando for aparecer uma mensagem na tela.
+*Porque estudar mais fluxos?
+É importante no incio desenhar fluxograma para ajudar na logica de programação e funcionar como um passo a passo durante a programação.
