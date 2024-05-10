@@ -1,8 +1,11 @@
-** VARUÁVEIS E CONSTANTES PRA QUE TE QUERO **
+** VARIÁVEIS E CONSTANTES PRA QUE TE QUERO **
 
 * Stage Variáveis - Press Start
 * Explicando variáveis
+Variáveis - Onde podemos guardar um valor.
 * Declarando variáveis na prática
+Declarar variavel no javascript LET
+Ex: let nickname  
 * Estrutura do nosso programa
 * A diferença de constande e vari[aveis
 * Colocando seu conhecimento em prática.
