@@ -1,0 +1,110 @@
+** VARIÁVEIS E CONSTANTES PRA QUE TE QUERO **
+
+* Stage Variáveis - Press Start
+* Explicando variáveis
+Variáveis - Onde podemos guardar um valor.
+* Declarando variáveis na prática
+Declarar variavel no javascript LET
+Ex: let nickname  
+		console.log("Digita o nome do seu jogador")
+
+		//declara uma variável
+		let nickname = "Maria mestra do Pikachu"
+
+		//concantenando uma mensagem fixa + uma variável
+		console.log("Bem vinda " + nickname)
+		console.log(nickname + " entrou no servidor")
+
+* Estrutura do nosso programa
+* A diferença de constande e variáveis
+Constante = Mensagem repetitiva - Um valor que não tem variação e não pode ter alteração
+Variáveis = Mensagem que pode mudar. Valor pode ser alterado
+EX: Declarando Constantes
+
+		const notificacao = "Pokemon Go diz: "
+
+		//saida
+		console.log(notificacao + "tem um novo pokemon na região")
+		console.log(notificacao + "você foi derrotado por um líder")
+
+* Colocando seu conhecimento em prática.
+EX:
+
+		let poteCafe = "café pilão"
+		let poteAcucar = "Açucar cristal"
+		let poteBiscoito = "Biscoito Maizena"
+		const messagemDaVovo = "Na cozinha da vovó hoje tem: "
+
+		console.log(messagemDaVovo + 
+		poteCafe + " - " +
+		poteAcucar + " - " +
+		poteBiscoito
+		)
+
+		poteCafe = "Café 3 corações"
+
+		console.log(messagemDaVovo + 
+		poteCafe + " - " +
+		poteAcucar + " - " +
+		poteBiscoito
+		)
+
+
+** TIPO DE VARIÁVEIS **
+
+* Tipos de variáveis
+
+STRING - são variaveis que armazenam texto
+NUMBER - são variaveis que armazenam números
+BOOLEAN - são variaveis lógicas, que armazenam o valor de ligado ou desligado (true/false)
+
+* Entendendo Strings, Numbers e Booleans
+STRING: Usa ""
+NUMBER: Só colocar o numero
+BOOLEAN: escrever true ou false
+
+EX:
+		//pokemon
+		let nomePokemon = "pikachu"
+		let pokemonSexo = "M"
+
+		let nivelPokemon = 20
+		let pontosDeVidaPokemon = 45
+
+		let selecionavel = false
+
+* Conhecendo outros tipos de variáveis
+
+VARIÁVEIS NUMÉRICAS:São usadas para armazennar valores numéricos.
+INTEIRO: Armazena números inteiros como 1, 10, -5.
+PONTO FLUTUANTE OU DECIMAL: Armazena números com casas decimais, como 3.14, -0.5.
+NÚMEROS COMPLEXOS: Armazena números complexos como 2+3j.
+
+VARIÁVEIS DE TEXTO: Usadas para armazenar sequências de caracteres.
+STRING: Armazena uma sequência de caracteres, como "Olá, mundo!"
+CARACTERE: Armazena um único caractere, como 'a', 'X', '@'.
+
+VARIÁVEIS LÓGICAS: Usadas para armazenar valores de verdadeiro ou falso.
+BOOLEANO: Armazena os valores True ou False.
+
+VARIÁVEIS DE DATA E HORA: Utilizadas para resentar datas e horários.
+DATA: Armazena datas, no formato AAAA-MM-DD.
+HORA: Armazena horários, no formato HH:MM:SS.
+
+* Exercicio de fixação
+
+		//nome = idade, numero de telefone, cpf, endereço, recebe pensão
+		//string = armazenar texto
+		//number = armazenar numeros
+		//boolean = armazenar valores lógicos
+
+		let nomePessoa = "Jossicreide do Pythinho"
+		let idade = 115
+		let numeroTelefone = "11-984713388" 	
+		let cpf = "312.122.312-45"
+		let endereco = "Rua dos limoeiros, numero 75, bairro da Jaquatirica"
+		let recebePensao = true
+
+** COMPARANDO COM OUTRAS LINGUAGENS **
+
+* Comparando variáveis em diferentes linguagens

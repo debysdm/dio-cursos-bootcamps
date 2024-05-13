@@ -1,0 +1,32 @@
+** CRIANDO E MANIPULANDO VETORES E MATRIZES **
+
+** Caixas e Armários
+* Guardando coisas em armários ao invés de caixas.
+Coleção
+EX:
+	let nomesPokemon = ["Pikachu" , "Chamander", "Bulbassaur"]
+
+* Como abrir portas especificas do seui armário.
+Colocar a posição que começa sempre do 0.
+
+* Vantagens de se utilizar vetores.
+* Comparando vetores entre linguagens.
+
+** Matrizes pra que te quero
+* Trabalhando com Matrizes.
+Variaveis = Caixas.
+Vetor = Armario (do mesmo tipo)
+Matrizes = Armario em bidimensional
+
+EX:
+
+	let nomesPokemon = ["Pikachu" , "Chamander", "Bulbassaur"]
+	let timePokemon = [
+ 	 ["pikachu", "M", 1],
+	  ["Chamander", "F", 3]
+	]
+
+
+	console.log(" O pokemon " + timePokemon[1][0] + " é do sexo " +  timePokemon[1][1] + 
+	" e está no nível " + timePokemon[1][2] )
+	* O que dá para fazer com vetores e matrizes
